@@ -1,0 +1,19 @@
+﻿  Block.cpp
+  BlockTextureContainer.cpp
+  Cave.cpp
+  CavePoint.cpp
+  Chunk.cpp
+  JetPack.cpp
+  Main_Win32.cpp
+  Player.cpp
+  TheApp.cpp
+  TheGame.cpp
+  World.cpp
+World.cpp(1337): warning C4456: declaration of 'hit' hides previous local declaration
+  World.cpp(1327): note: see declaration of 'hit'
+  Generating code
+  All 2360 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Game.vcxproj -> D:\Github Repos\SimpleMiner\SimpleMiner\Temporary\SimpleMiner_Win32_Release\SimpleMiner.exe
+  D:\Github Repos\SimpleMiner\SimpleMiner\Temporary\SimpleMiner_Win32_Release\SimpleMiner.exe -> D:\Github Repos\SimpleMiner\SimpleMiner\Run_Win32\SimpleMiner.exe
+  1 File(s) copied

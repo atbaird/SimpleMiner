@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="General\Player">
+      <UniqueIdentifier>{524bc087-5723-4bf5-9fd8-ea23112f89b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Chunks">
+      <UniqueIdentifier>{b739e66b-d4a5-4b85-a34f-19fd6b58819f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Application">
+      <UniqueIdentifier>{5d029ad7-333a-4005-9dfa-bf10ae5f9f2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Player.cpp">
+      <Filter>General\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="JetPack.cpp">
+      <Filter>General\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>General\Chunks</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockTextureContainer.cpp">
+      <Filter>General\Chunks</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>General\Chunks</Filter>
+    </ClCompile>
+    <ClCompile Include="TheGame.cpp">
+      <Filter>General\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="TheApp.cpp">
+      <Filter>General\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>General\Chunks</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Win32.cpp">
+      <Filter>General\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="CavePoint.cpp">
+      <Filter>General\Chunks</Filter>
+    </ClCompile>
+    <ClCompile Include="Cave.cpp">
+      <Filter>General\Chunks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.hpp">
+      <Filter>General\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="JetPack.hpp">
+      <Filter>General\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.hpp">
+      <Filter>General\Chunks</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockTextureContainer.hpp">
+      <Filter>General\Chunks</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.hpp">
+      <Filter>General\Chunks</Filter>
+    </ClInclude>
+    <ClInclude Include="TheGame.hpp">
+      <Filter>General\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="TheApp.hpp">
+      <Filter>General\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="World.hpp">
+      <Filter>General\Chunks</Filter>
+    </ClInclude>
+    <ClInclude Include="CavePoint.hpp">
+      <Filter>General\Chunks</Filter>
+    </ClInclude>
+    <ClInclude Include="Cave.hpp">
+      <Filter>General\Chunks</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
